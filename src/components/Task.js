@@ -1,29 +1,9 @@
-const task = [
-    {
-        id: 1, 
-        text: 'Doctrs Appointment',
-        day: 'Feb 5th at 2:30pm',
-        reminder: true,
-    },
-    {
-        id: 2, 
-        text: 'Metting in School',
-        day: 'Feb 6th at 1:30pm',
-        reminder: true,
-    },
-    {
-        id: 3, 
-        text: 'Food Shopping',
-        day: 'Feb 5th at 2:30pm',
-        reminder: false,
-    }
-    
-
-]
-function Task() {
+import {FaTimes} from 'react-icons/fa'
+const Task = ({task, onDelete}) => {
     return (
-        <div>
-            
+        <div className="task">
+            <h3>{task.text} <FaTimes style= {{color: 'red', cursor: 'pointer'}} onClick={() => onDelete(task.id)} /></h3>
+            <p>{task.day}</p>
         </div>
     )
 }
