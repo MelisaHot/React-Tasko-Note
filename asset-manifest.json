@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Tasko-Note/static/css/main.e6c13ad2.css",
+    "main.js": "/React-Tasko-Note/static/js/main.b44b48ea.js",
+    "static/js/787.249059c3.chunk.js": "/React-Tasko-Note/static/js/787.249059c3.chunk.js",
+    "index.html": "/React-Tasko-Note/index.html",
+    "main.e6c13ad2.css.map": "/React-Tasko-Note/static/css/main.e6c13ad2.css.map",
+    "main.b44b48ea.js.map": "/React-Tasko-Note/static/js/main.b44b48ea.js.map",
+    "787.249059c3.chunk.js.map": "/React-Tasko-Note/static/js/787.249059c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b44b48ea.js"
+  ]
+}
